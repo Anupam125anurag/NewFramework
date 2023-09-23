@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".custom_list_view"
+
+    >
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_View_1page"
+        android:layout_width="412dp"
+        android:layout_height="320dp"
+        android:clickable="true"
+        android:gravity="center"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="11dp"
+        app:cardElevation="11dp"
+        app:cardUseCompatPadding="true"
+        tools:ignore="MissingConstraints">
+
+
+        <ImageView
+            android:id="@+id/imageView_1page"
+            android:layout_width="404dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="-20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="120dp"
+            app:srcCompat="@drawable/framework_icon" />
+
+        <TextView
+            android:id="@+id/textView2_1page"
+            android:layout_width="312dp"
+            android:layout_height="61dp"
+            android:layout_marginLeft="82dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginBottom="120dp"
+            android:fontWeight="800"
+            android:text="Framework"
+            android:textColor="@color/black"
+            android:textSize="140px"
+            android:textStyle="bold"
+
+            />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView_1page"-->
+<!--        android:layout_width="404dp"-->
+<!--        android:layout_height="120dp"-->
+<!--        android:layout_marginLeft="-20dp"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:layout_marginBottom="120dp"-->
+<!--        app:srcCompat="@drawable/framework_icon" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView2_1page"-->
+<!--        android:layout_width="312dp"-->
+<!--        android:layout_height="61dp"-->
+<!--        android:layout_marginLeft="82dp"-->
+<!--        android:layout_marginTop="180dp"-->
+<!--        android:layout_marginBottom="120dp"-->
+<!--        android:fontWeight="800"-->
+<!--        android:text="Framework"-->
+
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="30sp"-->
+<!--        android:textStyle="bold"-->
+
+<!--        />-->
+
+
+
+</LinearLayout>
