@@ -75,6 +75,15 @@ public class MainActivity3 extends AppCompatActivity {
                     startActivity(in);
                 }
 
+//Added From Vishal branch to complete codebase.
+                if(position== 0) {
+                    String str = "http://192.168.1.113:8081/HDK855/test_result.html";
+                    Intent in = new Intent(getApplicationContext(), MainActivity4.class);
+                    in.putExtra("message_key", str);
+                    startActivity(in);
+                }
+                
+                //merging failed
 
                //Deleted From Anupam on Ubuntu
 
