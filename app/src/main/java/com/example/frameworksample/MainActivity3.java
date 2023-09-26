@@ -82,6 +82,21 @@ public class MainActivity3 extends AppCompatActivity {
                     startActivity(in);
                 }
 
+//Checking push operation from Ubuntu on Anurag branch
+
+ if(position== 7) {
+                    String str = "http://192.168.1.113:8081/HDK855/test_result.html";
+                    Intent in = new Intent(getApplicationContext(), MainActivity4.class);
+                    in.putExtra("message_key", str);
+                    startActivity(in);
+                }
+ if(position== 8) {
+                    String str = "http://192.168.1.113:8081/HDK855/test_result.html";
+                    Intent in = new Intent(getApplicationContext(), MainActivity4.class);
+                    in.putExtra("message_key", str);
+                    startActivity(in);
+                }
+
                //Deleted From Anupam on Ubuntu
 
                 if(position== 2) {
