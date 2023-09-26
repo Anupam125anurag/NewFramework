@@ -77,12 +77,7 @@ public class MainActivity3 extends AppCompatActivity {
 
                 
 
-                if(position== 1) {
-                    String str = "http://192.168.1.113:8081/HDK855/report.html";
-                    Intent in = new Intent(getApplicationContext(), MainActivity4.class);
-                    in.putExtra("message_key", str);
-                    startActivity(in);
-                }
+               //Deleted From Anupam on Ubuntu
 
                 if(position== 2) {
                     String str = "http://192.168.1.113:9000/dashboard?id=pixel2";
