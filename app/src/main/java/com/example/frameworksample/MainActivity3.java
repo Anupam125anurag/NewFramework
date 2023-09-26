@@ -75,7 +75,6 @@ public class MainActivity3 extends AppCompatActivity {
                     startActivity(in);
                 }
 
-                
 
                //Deleted From Anupam on Ubuntu
 
